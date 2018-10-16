@@ -1,0 +1,42 @@
+.doughnut {
+  width: 100px;
+  height: 100px;
+  line-height: 100px;
+  position: relative;
+  text-align: center;
+  /*background-color: #67DDAB;*/
+}
+
+.doughnut::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 10px solid #ccc;
+  border-radius: 50%;
+}
+
+.doughnut::after {
+  content: attr(data-percent);
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 10px solid #999;
+  border-radius: 50%;
+  clip: rect(0, auto, auto, 50px);
+}
+
+.doughnut .doughnut-progress {
+  /*position: absolute;*/
+  /*top: 0;*/
+  /*right: 0;*/
+  /*bottom: 0;*/
+  /*left: 0;*/
+  /*border: 10px solid #999;*/
+  /*border-radius: 50%;*/
+  /*clip: rect(0,auto,auto,50px);*/
+}
