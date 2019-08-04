@@ -1,1 +1,6 @@
+# webstorm
 .idea
+
+# parcel-bundler
+.cache
+dist

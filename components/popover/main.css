@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: Helvetica,Arial,sans-serif;
+  font-size: 14px;
+}
+button {
+  width: 60px;
+  height: 24px;
+}
+input {
+  height: 24px;
+}
+
+.hidden {
+  display: none;
+}
+
+.popover {
+  padding: 8px;
+  width: 400px;
+  border: solid 1px #ccc;
+  border-radius: 4px;
+}
