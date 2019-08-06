@@ -12,7 +12,7 @@ UI Practice Dojo
 
 * [x] [doughnut](https://agreal.github.io/dojo-ui/components/doughnut/)
 * [x] [menu](https://agreal.github.io/dojo-ui/components/menu/)
-* [ ] modal
+* [x] [popover](https://agreal.github.io/dojo-ui/components/popover/)
 * [ ] [virtual-scroller](https://agreal.github.io/dojo-ui/components/virtual-scroller/)
 
 ### 3. Layout
