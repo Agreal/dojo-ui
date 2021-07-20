@@ -13,8 +13,8 @@ UI Practice Dojo
 * [x] [doughnut](https://agreal.github.io/dojo-ui/components/doughnut/)
 * [x] [menu](https://agreal.github.io/dojo-ui/components/menu/)
 * [x] [popover](https://agreal.github.io/dojo-ui/components/popover/)
-* [x] [native video](https://agreal.github.io/dojo-ui/components/video.html)
-* [x] [responsive image](https://agreal.github.io/dojo-ui/components/responsive-image.html)
+* [x] [native video](https://agreal.github.io/dojo-ui/components/video)
+* [x] [responsive image](https://agreal.github.io/dojo-ui/components/responsive-image)
 * [ ] [virtual-scroller](https://agreal.github.io/dojo-ui/components/virtual-scroller/)
 
 ### 3. Layout

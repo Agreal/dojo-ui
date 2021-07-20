@@ -6,20 +6,43 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Video Test</title>
   <style>
+    .card {
+      overflow: hidden;
+      position: relative;
+    }
+    .card-cover-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      overflow: hidden;
+    }
+    .card-cover {
+      height: 300px;
+    }
+    .card-content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
   </style>
 </head>
 <body>
-<div class="card" style="overflow: hidden; position: relative;">
-  <div style="display: flex; justify-content: center; overflow: hidden;">
-    <img style="height: 300px" src="https://www-file.huawei.com/-/media/corp2020/home/banner/4/csr-2020-cn.jpg" alt="">
+<div class="card">
+  <div class="card-cover-container" style="height: 200px;">
+    <img class="card-cover" src="https://www-file.huawei.com/-/media/corp2020/home/banner/4/csr-2020-cn.jpg" alt="">
   </div>
-  <div class="card-content" style="position: absolute;top: 0;left: 0;right: 0;bottom: 0;display: flex;flex-direction: column;align-items: center">
+  <div class="card-content">
     <div class="card-title">xxx</div>
     <div class="icon">xxx</div>
     <div class="desptions">xxx</div>
   </div>
   <div class="button">
-
+    xxx
   </div>
 </div>
 </body>
