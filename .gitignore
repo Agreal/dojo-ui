@@ -1,6 +1,4 @@
-# webstorm
 .idea
-
-# parcel-bundler
 .cache
 dist
+.DS_Store
